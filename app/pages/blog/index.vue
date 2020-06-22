@@ -1,9 +1,10 @@
 <template>
+  <!-- prettier-ignore -->
   <section class="blog">
     <div class="py-8 md:py-16 text-center">
       <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">Blog</h1>
       <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
-        Slow-carb messenger bag mlkshk fingerstache four dollar toast.
+        About Javascript, Vue, Nodejs, Feathersjs and more
       </h2>
     </div>
 
@@ -13,7 +14,7 @@
           <nuxt-link :to="`/blog/${post.slug}`">
             <img
               class="w-full"
-              :src="post.featuredImage || 'https://source.unsplash.com/random/640x340'"
+              :src="post.featuredImage || img()"
             />
             <div class="p-6 bg-white">
               <h2 class="text-2xl mb-2">{{ post.title }}</h2>
@@ -52,6 +53,10 @@ import { MetaInfo } from 'vue-meta';
 export default class BlogIndex extends Vue {
   get posts(): Post[] {
     return [...this.$store.state.posts];
+  }
+
+  img(): string {
+    return 'https://source.unsplash.com/640x340/';
   }
 }
 </script>
