@@ -2,9 +2,9 @@
   "title": "Home",
   "titleTemplate": "| Bluise",
   "welcomeText": "# Antonio Nardone. WebSpecialist.",
-  "logo": "/images/uploads/logo.svg",
+  "logo": "/images/uploads/antonio.jpg",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
-  "seoDescription": "A quickstart for Nuxt & Netlify CMS",
+  "seoDescription": "A Javascript and more developer blog.",
   "seoMetaImage": ""
 }
