@@ -1,5 +1,0 @@
-{
-  "title": "vue-products-grid",
-  "content": "vue-products-grid is a responsive Vue component to create a products grid for ecommerce apps. Fully configurable with different options and reactive with full integration in your template/project (4 events emitted)\n\n## Repository\n\n<https://github.com/swina/vue-products-grid>\n\n\n\n## [](https://github.com/swina/vue-products-grid#features)Features\n\n* fully responsive grid ready (CSS) for desktop, laptop, mobile\n* data mapping with your data structure\n* many custom options for visual impact (colors, etc.)\n* fullprice/sale price display\n* sale box option (can be disabled)\n* rating stars included with emit event (can be disabled)\n* 1 configurable HTML toggle button with emit event (i.e. favorite item)\n* 1 configurable HTML button with emit event (i.e. add to cart)\n* 1 clickable area with emit event\n* HTML injection available for some elements\n\n## [](https://github.com/swina/vue-products-grid#demo)Demo\n\n[Demo](https://9lz0or9n3r.codesandbox.io/)",
-  "subtitle": "created for ecommerce apps and websites"
-}
