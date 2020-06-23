@@ -2,9 +2,9 @@
   "title": "Home",
   "titleTemplate": "| Bluise",
   "welcomeText": "# Antonio Nardone. WebSpecialist.",
-  "logo": "/images/uploads/antonio.jpg",
-  "icon": "/images/uploads/logo.png",
+  "logo": "/images/uploads/logo.png",
+  "icon": "/images/uploads/logo.svg",
   "loadingColor": "#0b3765",
-  "seoDescription": "A Javascript and more developer blog.",
+  "seoDescription": "Antonio Nardone Developer",
   "seoMetaImage": ""
 }
